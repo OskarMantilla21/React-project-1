@@ -4,10 +4,10 @@ import "./App.css";
 import Header from "./atomos/header";
 import Footer from "./atomos/footer";
 import Avatar from "./atomos/avatar";
-
-import micarro from "./micarro.jpg";
+import Counter from "./atomos/counter";
 import Card from "./atomos/card";
 import Badge from "./atomos/badge";
+import micarro from "./micarro.jpg";
 
 function App(){
   return(
@@ -29,6 +29,8 @@ function App(){
         {/* Badge */}
         <Badge label="car"/>
 
+        {/* Counter */}
+        <Counter/>
 
 
         {/* Footer */}
